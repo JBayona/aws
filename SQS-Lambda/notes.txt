@@ -1,0 +1,3 @@
+- When a SQS takes a message, it adds a lock a no other lambda can take that process.
+- Receive message waiting time: It´s the time we can wait to receive a process from the queue, if we receive it, we process ir immediatelly, the connection is still there and there´s no need to go back and forth with the connections, it´s a long polling, if we have value set to 0, it´s a short polling.
+- Everytime we process a SQS process, the message it´s deleted and we can show it as part of the deleted messages.
