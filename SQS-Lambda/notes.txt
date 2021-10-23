@@ -3,3 +3,5 @@
 - Everytime we process a SQS process, the message it´s deleted and we can show it as part of the deleted messages.
 - Batch size is the number of messages from the queue we take in one connection, there´s pros and cons, the props is that we don´t waste resources in making connections but it leads to more invocations to the lambda and the execution time will also increase, this is resources we need to pay. If we set to 0, we need to create connections every time to the SQS and see if there´s any message available we can process.
 - SQS works with long polling model.
+
+Video: https://www.youtube.com/watch?v=JJQrVBRzlPg
