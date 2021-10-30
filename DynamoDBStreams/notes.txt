@@ -1,5 +1,16 @@
 Notes:
 - It´s triggered by DynamoDB events like INSERT, UPDATE and DELETE.
 - An usage could be a realtime dashboard to update scores based on games.
+- We can use elastic search for search based on criteria.
+
+Elastic Cloud on AWS is brought to you by Elastic, the creators of the
+Elastic Stack (Elasticsearch, Logstash, Kibana, and Beats), and is billed
+through your AWS account.
+
+Elastic Cloud on AWS gives users the ability to run pre-built SaaS solutions
+for Enterprise Search, Observability (logging, APM, metrics), and Security.
+Elastic's Security solution includes SIEM and Endpoint capabilities and has
+been used throughout the world for everything from straightforward incident
+visualization to advanced cybersecurity.
 
 Video: https://www.youtube.com/watch?v=OjppS4RWWt8
