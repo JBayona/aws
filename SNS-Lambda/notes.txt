@@ -1,3 +1,4 @@
+Notes:
 - We can subscribe into a SNS topic.
 - We can add filters into the SNS message so that way we can only process messages into lambdas that are relevant to this topic and we save time of the lambda processing.
 - If there are multiple clients that are needed to process any event or subscriber, it´s better to use SNS and add filters to process them respectivelly with the lambda or AWS resource needed.
