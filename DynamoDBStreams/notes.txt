@@ -1,0 +1,3 @@
+Notes:
+- It´s triggered by DynamoDB events like INSERT, UPDATE and DELETE.
+- An usage could be a realtime dashboard to update scores based on games.
