@@ -21,3 +21,4 @@ Features:
 - Super easy integration with AWS lambda functions.
 
 Video: https://www.youtube.com/watch?v=OjppS4RWWt8
+Video DynamoDB streams to lambda: https://www.youtube.com/watch?v=RhLUyJxS8Tk
