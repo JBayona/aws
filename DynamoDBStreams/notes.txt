@@ -13,4 +13,11 @@ Elastic's Security solution includes SIEM and Endpoint capabilities and has
 been used throughout the world for everything from straightforward incident
 visualization to advanced cybersecurity.
 
+Features:
+- Guaranteed, in order events.
+- Customizable events: keys only, new image, old image, new and old image, image is referring to the state of the record.
+- Batch processing.
+- No performance impact on source table, there´s no impact on the DynamoDB table as DynamoStreams are completely separate, there´s no impact at all.
+- Super easy integration with AWS lambda functions.
+
 Video: https://www.youtube.com/watch?v=OjppS4RWWt8
